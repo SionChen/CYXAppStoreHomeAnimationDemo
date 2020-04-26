@@ -1,2 +1,2 @@
 # CYXAppleStoreHomeAnimationDemo
-仿iOS applestore首页转场动画
+仿iOS AppStore首页转场动画
