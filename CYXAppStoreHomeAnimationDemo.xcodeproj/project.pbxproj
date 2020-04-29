@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02E1DAB9731DB83EADD0A188 /* libPods-CYXAppStoreHomeAnimationDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD914BE69D361F8738367BC9 /* libPods-CYXAppStoreHomeAnimationDemo.a */; };
+		ADAAF725245584F100641458 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAAF724245584F100641458 /* AppDelegate.m */; };
+		ADAAF72B245584F100641458 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAAF72A245584F100641458 /* ViewController.m */; };
+		ADAAF72E245584F100641458 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAAF72C245584F100641458 /* Main.storyboard */; };
+		ADAAF730245584F400641458 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADAAF72F245584F400641458 /* Assets.xcassets */; };
+		ADAAF733245584F400641458 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAAF731245584F400641458 /* LaunchScreen.storyboard */; };
+		ADAAF736245584F400641458 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAAF735245584F400641458 /* main.m */; };
+		ADAAF740245584F400641458 /* CYXAppStoreHomeAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAAF73F245584F400641458 /* CYXAppStoreHomeAnimationDemoTests.m */; };
+		ADAAF74B245584F400641458 /* CYXAppStoreHomeAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAAF74A245584F400641458 /* CYXAppStoreHomeAnimationDemoUITests.m */; };
+		ADAAF75A2455898000641458 /* AppStoreAnimatedTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAAF7592455898000641458 /* AppStoreAnimatedTransition.m */; };
+		ADAAF75D2455899F00641458 /* AppStoreDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAAF75C2455899F00641458 /* AppStoreDetailViewController.m */; };
+		ADAAF76024558A3000641458 /* AppStoreListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAAF75F24558A3000641458 /* AppStoreListTableViewCell.m */; };
+		ADAAF7662457D11E00641458 /* AppStoreListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAAF7652457D11E00641458 /* AppStoreListViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADAAF73C245584F400641458 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADAAF718245584F100641458 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADAAF71F245584F100641458;
+			remoteInfo = CYXAppStoreHomeAnimationDemo;
+		};
+		ADAAF747245584F400641458 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADAAF718245584F100641458 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADAAF71F245584F100641458;
+			remoteInfo = CYXAppStoreHomeAnimationDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B789B04474AD4C799E6F45C /* Pods-CYXAppStoreHomeAnimationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYXAppStoreHomeAnimationDemo.release.xcconfig"; path = "Target Support Files/Pods-CYXAppStoreHomeAnimationDemo/Pods-CYXAppStoreHomeAnimationDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AD914BE69D361F8738367BC9 /* libPods-CYXAppStoreHomeAnimationDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CYXAppStoreHomeAnimationDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADAAF720245584F100641458 /* CYXAppStoreHomeAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYXAppStoreHomeAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADAAF723245584F100641458 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADAAF724245584F100641458 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADAAF729245584F100641458 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ADAAF72A245584F100641458 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ADAAF72D245584F100641458 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADAAF72F245584F400641458 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADAAF732245584F400641458 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADAAF734245584F400641458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADAAF735245584F400641458 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADAAF73B245584F400641458 /* CYXAppStoreHomeAnimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYXAppStoreHomeAnimationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADAAF73F245584F400641458 /* CYXAppStoreHomeAnimationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYXAppStoreHomeAnimationDemoTests.m; sourceTree = "<group>"; };
+		ADAAF741245584F400641458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADAAF746245584F400641458 /* CYXAppStoreHomeAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYXAppStoreHomeAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADAAF74A245584F400641458 /* CYXAppStoreHomeAnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYXAppStoreHomeAnimationDemoUITests.m; sourceTree = "<group>"; };
+		ADAAF74C245584F400641458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADAAF7582455898000641458 /* AppStoreAnimatedTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppStoreAnimatedTransition.h; sourceTree = "<group>"; };
+		ADAAF7592455898000641458 /* AppStoreAnimatedTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppStoreAnimatedTransition.m; sourceTree = "<group>"; };
+		ADAAF75B2455899F00641458 /* AppStoreDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppStoreDetailViewController.h; sourceTree = "<group>"; };
+		ADAAF75C2455899F00641458 /* AppStoreDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppStoreDetailViewController.m; sourceTree = "<group>"; };
+		ADAAF75E24558A3000641458 /* AppStoreListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppStoreListTableViewCell.h; sourceTree = "<group>"; };
+		ADAAF75F24558A3000641458 /* AppStoreListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppStoreListTableViewCell.m; sourceTree = "<group>"; };
+		ADAAF7642457D11E00641458 /* AppStoreListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppStoreListViewController.h; sourceTree = "<group>"; };
+		ADAAF7652457D11E00641458 /* AppStoreListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppStoreListViewController.m; sourceTree = "<group>"; };
+		ADDB0E50F2F880A160FA3263 /* Pods-CYXAppStoreHomeAnimationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYXAppStoreHomeAnimationDemo.debug.xcconfig"; path = "Target Support Files/Pods-CYXAppStoreHomeAnimationDemo/Pods-CYXAppStoreHomeAnimationDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADAAF71D245584F100641458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E1DAB9731DB83EADD0A188 /* libPods-CYXAppStoreHomeAnimationDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAAF738245584F400641458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAAF743245584F400641458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADAAF717245584F100641458 = {
+			isa = PBXGroup;
+			children = (
+				ADAAF722245584F100641458 /* CYXAppStoreHomeAnimationDemo */,
+				ADAAF73E245584F400641458 /* CYXAppStoreHomeAnimationDemoTests */,
+				ADAAF749245584F400641458 /* CYXAppStoreHomeAnimationDemoUITests */,
+				ADAAF721245584F100641458 /* Products */,
+				DC289392DE13C2D8228210CE /* Pods */,
+				D3CE967C12265311B280B3BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ADAAF721245584F100641458 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADAAF720245584F100641458 /* CYXAppStoreHomeAnimationDemo.app */,
+				ADAAF73B245584F400641458 /* CYXAppStoreHomeAnimationDemoTests.xctest */,
+				ADAAF746245584F400641458 /* CYXAppStoreHomeAnimationDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADAAF722245584F100641458 /* CYXAppStoreHomeAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ADAAF723245584F100641458 /* AppDelegate.h */,
+				ADAAF724245584F100641458 /* AppDelegate.m */,
+				ADAAF729245584F100641458 /* ViewController.h */,
+				ADAAF72A245584F100641458 /* ViewController.m */,
+				ADAAF72C245584F100641458 /* Main.storyboard */,
+				ADAAF72F245584F400641458 /* Assets.xcassets */,
+				ADAAF731245584F400641458 /* LaunchScreen.storyboard */,
+				ADAAF734245584F400641458 /* Info.plist */,
+				ADAAF735245584F400641458 /* main.m */,
+				ADAAF7582455898000641458 /* AppStoreAnimatedTransition.h */,
+				ADAAF7592455898000641458 /* AppStoreAnimatedTransition.m */,
+				ADAAF75B2455899F00641458 /* AppStoreDetailViewController.h */,
+				ADAAF75C2455899F00641458 /* AppStoreDetailViewController.m */,
+				ADAAF75E24558A3000641458 /* AppStoreListTableViewCell.h */,
+				ADAAF75F24558A3000641458 /* AppStoreListTableViewCell.m */,
+				ADAAF7642457D11E00641458 /* AppStoreListViewController.h */,
+				ADAAF7652457D11E00641458 /* AppStoreListViewController.m */,
+			);
+			path = CYXAppStoreHomeAnimationDemo;
+			sourceTree = "<group>";
+		};
+		ADAAF73E245584F400641458 /* CYXAppStoreHomeAnimationDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADAAF73F245584F400641458 /* CYXAppStoreHomeAnimationDemoTests.m */,
+				ADAAF741245584F400641458 /* Info.plist */,
+			);
+			path = CYXAppStoreHomeAnimationDemoTests;
+			sourceTree = "<group>";
+		};
+		ADAAF749245584F400641458 /* CYXAppStoreHomeAnimationDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADAAF74A245584F400641458 /* CYXAppStoreHomeAnimationDemoUITests.m */,
+				ADAAF74C245584F400641458 /* Info.plist */,
+			);
+			path = CYXAppStoreHomeAnimationDemoUITests;
+			sourceTree = "<group>";
+		};
+		D3CE967C12265311B280B3BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD914BE69D361F8738367BC9 /* libPods-CYXAppStoreHomeAnimationDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC289392DE13C2D8228210CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADDB0E50F2F880A160FA3263 /* Pods-CYXAppStoreHomeAnimationDemo.debug.xcconfig */,
+				9B789B04474AD4C799E6F45C /* Pods-CYXAppStoreHomeAnimationDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADAAF71F245584F100641458 /* CYXAppStoreHomeAnimationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADAAF74F245584F400641458 /* Build configuration list for PBXNativeTarget "CYXAppStoreHomeAnimationDemo" */;
+			buildPhases = (
+				0BEB08C74F05A0358B58AC8E /* [CP] Check Pods Manifest.lock */,
+				ADAAF71C245584F100641458 /* Sources */,
+				ADAAF71D245584F100641458 /* Frameworks */,
+				ADAAF71E245584F100641458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYXAppStoreHomeAnimationDemo;
+			productName = CYXAppStoreHomeAnimationDemo;
+			productReference = ADAAF720245584F100641458 /* CYXAppStoreHomeAnimationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADAAF73A245584F400641458 /* CYXAppStoreHomeAnimationDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADAAF752245584F400641458 /* Build configuration list for PBXNativeTarget "CYXAppStoreHomeAnimationDemoTests" */;
+			buildPhases = (
+				ADAAF737245584F400641458 /* Sources */,
+				ADAAF738245584F400641458 /* Frameworks */,
+				ADAAF739245584F400641458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADAAF73D245584F400641458 /* PBXTargetDependency */,
+			);
+			name = CYXAppStoreHomeAnimationDemoTests;
+			productName = CYXAppStoreHomeAnimationDemoTests;
+			productReference = ADAAF73B245584F400641458 /* CYXAppStoreHomeAnimationDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADAAF745245584F400641458 /* CYXAppStoreHomeAnimationDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADAAF755245584F400641458 /* Build configuration list for PBXNativeTarget "CYXAppStoreHomeAnimationDemoUITests" */;
+			buildPhases = (
+				ADAAF742245584F400641458 /* Sources */,
+				ADAAF743245584F400641458 /* Frameworks */,
+				ADAAF744245584F400641458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADAAF748245584F400641458 /* PBXTargetDependency */,
+			);
+			name = CYXAppStoreHomeAnimationDemoUITests;
+			productName = CYXAppStoreHomeAnimationDemoUITests;
+			productReference = ADAAF746245584F400641458 /* CYXAppStoreHomeAnimationDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADAAF718245584F100641458 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "晓";
+				TargetAttributes = {
+					ADAAF71F245584F100641458 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					ADAAF73A245584F400641458 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = ADAAF71F245584F100641458;
+					};
+					ADAAF745245584F400641458 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = ADAAF71F245584F100641458;
+					};
+				};
+			};
+			buildConfigurationList = ADAAF71B245584F100641458 /* Build configuration list for PBXProject "CYXAppStoreHomeAnimationDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADAAF717245584F100641458;
+			productRefGroup = ADAAF721245584F100641458 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADAAF71F245584F100641458 /* CYXAppStoreHomeAnimationDemo */,
+				ADAAF73A245584F400641458 /* CYXAppStoreHomeAnimationDemoTests */,
+				ADAAF745245584F400641458 /* CYXAppStoreHomeAnimationDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADAAF71E245584F100641458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAAF733245584F400641458 /* LaunchScreen.storyboard in Resources */,
+				ADAAF730245584F400641458 /* Assets.xcassets in Resources */,
+				ADAAF72E245584F100641458 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAAF739245584F400641458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAAF744245584F400641458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BEB08C74F05A0358B58AC8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CYXAppStoreHomeAnimationDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADAAF71C245584F100641458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAAF7662457D11E00641458 /* AppStoreListViewController.m in Sources */,
+				ADAAF72B245584F100641458 /* ViewController.m in Sources */,
+				ADAAF725245584F100641458 /* AppDelegate.m in Sources */,
+				ADAAF736245584F400641458 /* main.m in Sources */,
+				ADAAF76024558A3000641458 /* AppStoreListTableViewCell.m in Sources */,
+				ADAAF75D2455899F00641458 /* AppStoreDetailViewController.m in Sources */,
+				ADAAF75A2455898000641458 /* AppStoreAnimatedTransition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAAF737245584F400641458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAAF740245584F400641458 /* CYXAppStoreHomeAnimationDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAAF742245584F400641458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAAF74B245584F400641458 /* CYXAppStoreHomeAnimationDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADAAF73D245584F400641458 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADAAF71F245584F100641458 /* CYXAppStoreHomeAnimationDemo */;
+			targetProxy = ADAAF73C245584F400641458 /* PBXContainerItemProxy */;
+		};
+		ADAAF748245584F400641458 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADAAF71F245584F100641458 /* CYXAppStoreHomeAnimationDemo */;
+			targetProxy = ADAAF747245584F400641458 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADAAF72C245584F100641458 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADAAF72D245584F100641458 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADAAF731245584F400641458 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADAAF732245584F400641458 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADAAF74D245584F400641458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADAAF74E245584F400641458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADAAF750245584F400641458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADDB0E50F2F880A160FA3263 /* Pods-CYXAppStoreHomeAnimationDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2RS3LYLB6;
+				INFOPLIST_FILE = CYXAppStoreHomeAnimationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sion.-CYXAppStoreHomeAnimationDemo.CYXAppStoreHomeAnimationDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADAAF751245584F400641458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B789B04474AD4C799E6F45C /* Pods-CYXAppStoreHomeAnimationDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2RS3LYLB6;
+				INFOPLIST_FILE = CYXAppStoreHomeAnimationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sion.-CYXAppStoreHomeAnimationDemo.CYXAppStoreHomeAnimationDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ADAAF753245584F400641458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8HNP5V78H;
+				INFOPLIST_FILE = CYXAppStoreHomeAnimationDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sion.-CYXAppStoreHomeAnimationDemo.CYXAppStoreHomeAnimationDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYXAppStoreHomeAnimationDemo.app/CYXAppStoreHomeAnimationDemo";
+			};
+			name = Debug;
+		};
+		ADAAF754245584F400641458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8HNP5V78H;
+				INFOPLIST_FILE = CYXAppStoreHomeAnimationDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sion.-CYXAppStoreHomeAnimationDemo.CYXAppStoreHomeAnimationDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYXAppStoreHomeAnimationDemo.app/CYXAppStoreHomeAnimationDemo";
+			};
+			name = Release;
+		};
+		ADAAF756245584F400641458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8HNP5V78H;
+				INFOPLIST_FILE = CYXAppStoreHomeAnimationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sion.-CYXAppStoreHomeAnimationDemo.CYXAppStoreHomeAnimationDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CYXAppStoreHomeAnimationDemo;
+			};
+			name = Debug;
+		};
+		ADAAF757245584F400641458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8HNP5V78H;
+				INFOPLIST_FILE = CYXAppStoreHomeAnimationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sion.-CYXAppStoreHomeAnimationDemo.CYXAppStoreHomeAnimationDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CYXAppStoreHomeAnimationDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADAAF71B245584F100641458 /* Build configuration list for PBXProject "CYXAppStoreHomeAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAAF74D245584F400641458 /* Debug */,
+				ADAAF74E245584F400641458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADAAF74F245584F400641458 /* Build configuration list for PBXNativeTarget "CYXAppStoreHomeAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAAF750245584F400641458 /* Debug */,
+				ADAAF751245584F400641458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADAAF752245584F400641458 /* Build configuration list for PBXNativeTarget "CYXAppStoreHomeAnimationDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAAF753245584F400641458 /* Debug */,
+				ADAAF754245584F400641458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADAAF755245584F400641458 /* Build configuration list for PBXNativeTarget "CYXAppStoreHomeAnimationDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAAF756245584F400641458 /* Debug */,
+				ADAAF757245584F400641458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADAAF718245584F100641458 /* Project object */;
+}
